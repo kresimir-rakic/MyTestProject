@@ -10,5 +10,8 @@ int main()
 	scanf("%d", &broj);
 	printf("Unijeli ste broj %d.\n", broj);
 	
+	if(broj > 0)
+	    printf("Broj je pozitivan.\n");
+		
 	return 0;
 }
