@@ -8,6 +8,7 @@ int main()
 	printf("Pozdrav svijetu.\n");
 	printf("Unesi jedan cijeli broj: ");
 	scanf("%d", &broj);
+	printf("Unijeli ste broj %d.\n", broj);
 	
 	return 0;
 }
